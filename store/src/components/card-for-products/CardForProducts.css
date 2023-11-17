@@ -1,0 +1,71 @@
+.card-outline {
+    background-color: rgba(134 163 217 / 25%);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 15px;
+    filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.banner-image {
+    background-position: center;
+    height: 300px;
+    width: fit-content;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.255)
+}
+
+.img {
+    height: 100%;
+    border-radius: 12px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    justify-content: center;
+}
+
+.btn-wrapper{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 30px;
+}
+
+
+.outline-red {
+    background: transparent;
+    color: red;
+    border: 1px solid red;
+    transition: all .3s ease;
+    font-weight: bold;
+}
+
+.outline-red:hover {
+    transform: scale(1.125);
+    color: rgba(123 110 207 / 96%);
+    border-color: rgba(123 110 207 / 96%);
+    transition: all .3s ease;
+}
+
+.fill {
+    background: rgba(123 110 207 / 96%);
+    color: rgba(255, 255, 255, 0.95);
+    filter: drop-shadow(0);
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.fill:hover {
+    transform: scale(1.125);
+    border-color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
+    transition: all .3s ease;
+}
